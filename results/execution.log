@@ -1,0 +1,558 @@
+2025-02-25 12:08:22,449 - INFO - Starting AI cybersecurity pipeline...
+2025-02-25 12:08:22,449 - DEBUG - Processing task: {'task': 'nmap_scan', 'target': 'google.com'}
+2025-02-25 12:08:22,449 - INFO - Starting Nmap scan on google.com...
+2025-02-25 12:09:43,086 - INFO - Nmap scan completed: Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-25 12:08 IST
+Nmap scan report for google.com (142.250.192.46)
+Host is up (0.011s latency).
+Other addresses for google.com (not scanned): 2404:6800:4009:828::200e
+rDNS record for 142.250.192.46: bom12s15-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      gws
+443/tcp open  ssl/https gws
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=2/25%Time=67BD656D%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,16A0,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Tue,\x2025\x20Feb\x2020
+SF:25\x2006:38:37\x20GMT\r\nExpires:\x20-1\r\nCache-Control:\x20private,\x
+SF:20max-age=0\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1\r\nCon
+SF:tent-Security-Policy-Report-Only:\x20object-src\x20'none';base-uri\x20'
+SF:self';script-src\x20'nonce-JQzNI1QVthKlRg-V9O7HGQ'\x20'strict-dynamic'\
+SF:x20'report-sample'\x20'unsafe-eval'\x20'unsafe-inline'\x20https:\x20htt
+SF:p:;report-uri\x20https://csp\.withgoogle\.com/csp/gws/other-hp\r\nP3P:\
+SF:x20CP=\"This\x20is\x20not\x20a\x20P3P\x20policy!\x20See\x20g\.co/p3phel
+SF:p\x20for\x20more\x20info\.\"\r\nServer:\x20gws\r\nX-XSS-Protection:\x20
+SF:0\r\nX-Frame-Options:\x20SAMEORIGIN\r\nSet-Cookie:\x20AEC=AVcja2deX5HiF
+SF:OE504_AIx4hNWdiXAXp9zXxUAkWbD_AR7UYjzR32MZPLg;\x20expires=Sun,\x2024-Au
+SF:g-2025\x2006:38:37\x20GMT;\x20path=/;\x20domain=\.google\.com;\x20Secur
+SF:e;\x20HttpOnly;\x20SameSite=lax\r\nSet-Cookie:\x20NID=522=uDoyLrdjzFe5N
+SF:3piyrqfDCxUcYJ6VmdMYd9l_YPNGu9KJowlwBvl9LFytPEvCMkBLuAgCBF7kbmYCFmzSQzU
+SF:s-mQqAjfqc9hV7Iro6G5_SL5sfjX3pQUXdaC-390E9MIWnq0IGtKgZgqn0TF1Q77SK-x82S
+SF:4v2vkB45tO5xqw8atvs4qLDZdW")%r(HTTPOptions,6DC,"HTTP/1\.0\x20405\x20Met
+SF:hod\x20Not\x20Allowed\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r
+SF:\nReferrer-Policy:\x20no-referrer\r\nContent-Length:\x201592\r\nDate:\x
+SF:20Tue,\x2025\x20Feb\x202025\x2006:38:37\x20GMT\r\n\r\n<!DOCTYPE\x20html
+SF:>\n<html\x20lang=en>\n\x20\x20<meta\x20charset=utf-8>\n\x20\x20<meta\x2
+SF:0name=viewport\x20content=\"initial-scale=1,\x20minimum-scale=1,\x20wid
+SF:th=device-width\">\n\x20\x20<title>Error\x20405\x20\(Method\x20Not\x20A
+SF:llowed\)!!1</title>\n\x20\x20<style>\n\x20\x20\x20\x20\*{margin:0;paddi
+SF:ng:0}html,code{font:15px/22px\x20arial,sans-serif}html{background:#fff;
+SF:color:#222;padding:15px}body{margin:7%\x20auto\x200;max-width:390px;min
+SF:-height:180px;padding:30px\x200\x2015px}\*\x20>\x20body{background:url\
+SF:(//www\.google\.com/images/errors/robot\.png\)\x20100%\x205px\x20no-rep
+SF:eat;padding-right:205px}p{margin:11px\x200\x2022px;overflow:hidden}ins{
+SF:color:#777;text-decoration:none}a\x20img{border:0}@media\x20screen\x20a
+SF:nd\x20\(max-width:772px\){body{background:none;margin-top:0;max-width:n
+SF:one;padding-right:0}}#logo{background:url\(//www\.google\.com/images/br
+SF:anding");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%T=SSL%I=7%D=2/25%Time=67BD6575%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,E752,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Tue,\x2025\x20Fe
+SF:b\x202025\x2006:38:44\x20GMT\r\nExpires:\x20-1\r\nCache-Control:\x20pri
+SF:vate,\x20max-age=0\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1
+SF:\r\nContent-Security-Policy-Report-Only:\x20object-src\x20'none';base-u
+SF:ri\x20'self';script-src\x20'nonce-K4bfJomFfaIkua6vS4uFHA'\x20'strict-dy
+SF:namic'\x20'report-sample'\x20'unsafe-eval'\x20'unsafe-inline'\x20https:
+SF:\x20http:;report-uri\x20https://csp\.withgoogle\.com/csp/gws/other-hp\r
+SF:\nAccept-CH:\x20Sec-CH-Prefers-Color-Scheme\r\nP3P:\x20CP=\"This\x20is\
+SF:x20not\x20a\x20P3P\x20policy!\x20See\x20g\.co/p3phelp\x20for\x20more\x2
+SF:0info\.\"\r\nServer:\x20gws\r\nX-XSS-Protection:\x200\r\nX-Frame-Option
+SF:s:\x20SAMEORIGIN\r\nSet-Cookie:\x20AEC=AVcja2dpsf43xb_N5S4bM3iroE3sUqFi
+SF:IbEKdw2-vr1ofZPXVv8WlJd1WTw;\x20expires=Sun,\x2024-Aug-2025\x2006:38:44
+SF:\x20GMT;\x20path=/;\x20domain=\.google\.com;\x20Secure;\x20HttpOnly;\x2
+SF:0SameSite=lax\r\nSet-Cookie:\x20NID=522=rq_D00J1nQFy_MCvyVz5RAWeRIhgDBu
+SF:VBtLGzMHlsSPcey0nEBWi0QQnWGLXkfQadzhx41ESim9u0s_2qNk0XEXIdicxsrjAl7cOj3
+SF:pAMRKmlyjNs0EAgSNxZNqQ1SXpIJuUrwDnusSF")%r(DNSStatusRequestTCP,B3,"HTTP
+SF:/1\.0\x20400\x20Bad\x20Request\r\nContent-Length:\x2054\r\nContent-Type
+SF::\x20text/html;\x20charset=UTF-8\r\nDate:\x20Tue,\x2025\x20Feb\x202025\
+SF:x2006:38:57\x20GMT\r\n\r\n<html><title>Error\x20400\x20\(Bad\x20Request
+SF:\)!!1</title></html>");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 80.60 seconds
+
+2025-02-25 12:09:43,086 - DEBUG - Processing task: {'task': 'gobuster_scan', 'target': 'google.com'}
+2025-02-25 12:09:43,086 - INFO - Starting Gobuster scan on google.com...
+2025-02-25 12:10:35,341 - INFO - Gobuster scan completed: ===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://google.com
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /home/hulk/cybersecurity-ai-pipeline/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+
+[2K/.well-known/security.txt (Status: 301) [Size: 244] [--> https://www.google.com/.well-known/security.txt]
+
+[2K/2001                 (Status: 301) [Size: 224] [--> https://www.google.com/2001]
+
+[2K/2002                 (Status: 301) [Size: 224] [--> https://www.google.com/2002]
+
+[2K/2003                 (Status: 301) [Size: 224] [--> https://www.google.com/2003]
+
+[2K/2004                 (Status: 301) [Size: 224] [--> https://www.google.com/2004]
+
+[2K/2005                 (Status: 301) [Size: 224] [--> https://www.google.com/2005]
+
+[2K/2006                 (Status: 301) [Size: 224] [--> https://www.google.com/2006]
+
+[2K/2007                 (Status: 301) [Size: 224] [--> https://www.google.com/2007]
+
+[2K/2008                 (Status: 301) [Size: 224] [--> https://www.google.com/2008]
+
+[2K/2009                 (Status: 301) [Size: 224] [--> https://www.google.com/2009]
+
+[2K/2011                 (Status: 301) [Size: 224] [--> https://www.google.com/2011]
+
+[2K/2010                 (Status: 301) [Size: 224] [--> https://www.google.com/2010]
+
+[2K/2012                 (Status: 301) [Size: 224] [--> https://www.google.com/2012]
+
+[2K/2013                 (Status: 301) [Size: 224] [--> https://www.google.com/2013]
+
+[2K/2014                 (Status: 301) [Size: 224] [--> https://www.google.com/2014]
+
+[2K/2015                 (Status: 301) [Size: 224] [--> https://www.google.com/2015]
+
+[2K/2017                 (Status: 301) [Size: 224] [--> https://www.google.com/2017]
+
+[2K/2016                 (Status: 301) [Size: 224] [--> https://www.google.com/2016]
+
+[2K/2019                 (Status: 301) [Size: 224] [--> https://www.google.com/2019]
+
+[2K/2018                 (Status: 301) [Size: 224] [--> https://www.google.com/2018]
+
+[2K/2020                 (Status: 301) [Size: 224] [--> https://www.google.com/2020]
+
+[2K/A                    (Status: 301) [Size: 221] [--> https://www.google.com/A]
+
+[2K/Research             (Status: 301) [Size: 228] [--> https://www.google.com/Research]
+
+[2K/a                    (Status: 301) [Size: 221] [--> https://www.google.com/a]
+
+[2K/about                (Status: 301) [Size: 225] [--> https://www.google.com/about]
+
+[2K/accessibility        (Status: 301) [Size: 233] [--> https://www.google.com/accessibility]
+
+[2K/account              (Status: 301) [Size: 227] [--> https://www.google.com/account]
+
+[2K/action               (Status: 301) [Size: 225] [--> http://www.google.com/action]
+
+[2K/activity             (Status: 301) [Size: 0] [--> https://google.com/activity]
+
+[2K/accounts             (Status: 302) [Size: 237] [--> https://accounts.google.com/]
+
+[2K/ads                  (Status: 301) [Size: 223] [--> https://www.google.com/ads]
+
+[2K/advertise            (Status: 301) [Size: 229] [--> https://www.google.com/advertise]
+
+[2K/advertisers          (Status: 301) [Size: 231] [--> https://www.google.com/advertisers]
+
+[2K/advertising          (Status: 301) [Size: 231] [--> https://www.google.com/advertising]
+
+[2K/adview               (Status: 301) [Size: 225] [--> http://www.google.com/adview]
+
+[2K/africa               (Status: 301) [Size: 226] [--> https://www.google.com/africa]
+
+[2K/advanced_search      (Status: 301) [Size: 234] [--> http://www.google.com/advanced_search]
+
+[2K/analytics            (Status: 301) [Size: 229] [--> https://www.google.com/analytics]
+
+[2K/android              (Status: 301) [Size: 227] [--> https://www.google.com/android]
+
+[2K/android/config       (Status: 301) [Size: 234] [--> https://www.google.com/android/config]
+
+[2K/answers              (Status: 301) [Size: 227] [--> https://www.google.com/answers]
+
+[2K/alerts               (Status: 301) [Size: 226] [--> https://www.google.com/alerts]
+
+[2K/apis                 (Status: 301) [Size: 224] [--> https://www.google.com/apis]
+
+[2K/apple-app-site-association (Status: 200) [Size: 40436]
+
+[2K/appliance            (Status: 301) [Size: 229] [--> https://www.google.com/appliance]
+
+[2K/apps                 (Status: 301) [Size: 224] [--> https://www.google.com/apps]
+
+[2K/blog                 (Status: 301) [Size: 224] [--> https://www.google.com/blog]
+
+[2K/blocked              (Status: 301) [Size: 227] [--> https://www.google.com/blocked]
+
+[2K/blogger              (Status: 301) [Size: 227] [--> https://www.google.com/blogger]
+
+[2K/books                (Status: 301) [Size: 226] [--> http://books.google.com/books]
+
+[2K/buy                  (Status: 301) [Size: 223] [--> https://www.google.com/buy]
+
+[2K/calendar             (Status: 301) [Size: 228] [--> https://www.google.com/calendar]
+
+[2K/business             (Status: 302) [Size: 0] [--> http://google.com/business/]
+
+[2K/campaigns            (Status: 301) [Size: 229] [--> https://www.google.com/campaigns]
+
+[2K/careers              (Status: 301) [Size: 227] [--> https://www.google.com/careers]
+
+[2K/cars                 (Status: 301) [Size: 224] [--> https://www.google.com/cars]
+
+[2K/casestudies          (Status: 301) [Size: 231] [--> https://www.google.com/casestudies]
+
+[2K/chat                 (Status: 301) [Size: 224] [--> https://www.google.com/chat]
+
+[2K/chrome               (Status: 301) [Size: 226] [--> https://www.google.com/chrome]
+
+[2K/city                 (Status: 301) [Size: 224] [--> https://www.google.com/city]
+
+[2K/commerce             (Status: 301) [Size: 228] [--> https://www.google.com/commerce]
+
+[2K/collection           (Status: 301) [Size: 0] [--> https://google.com/collection]
+
+[2K/company              (Status: 301) [Size: 227] [--> https://www.google.com/company]
+
+[2K/compare              (Status: 301) [Size: 227] [--> https://www.google.com/compare]
+
+[2K/contact              (Status: 301) [Size: 227] [--> https://www.google.com/contact]
+
+[2K/contacts             (Status: 301) [Size: 228] [--> https://www.google.com/contacts]
+
+[2K/contributor          (Status: 301) [Size: 231] [--> https://www.google.com/contributor]
+
+[2K/cm                   (Status: 301) [Size: 0] [--> http://campaignmanager.google.com/cm]
+
+[2K/creditcards          (Status: 301) [Size: 231] [--> https://www.google.com/creditcards]
+
+[2K/crossdomain.xml      (Status: 301) [Size: 235] [--> https://www.google.com/crossdomain.xml]
+
+[2K/cse                  (Status: 301) [Size: 223] [--> https://www.google.com/cse]
+
+[2K/custom               (Status: 301) [Size: 226] [--> https://www.google.com/custom]
+
+[2K/customers            (Status: 301) [Size: 229] [--> https://www.google.com/customers]
+
+[2K/dashboard            (Status: 301) [Size: 229] [--> https://www.google.com/dashboard]
+
+[2K/deleted              (Status: 301) [Size: 227] [--> https://www.google.com/deleted]
+
+[2K/cr                   (Status: 400) [Size: 16]
+
+[2K/design               (Status: 301) [Size: 226] [--> https://www.google.com/design]
+
+[2K/desktop              (Status: 301) [Size: 227] [--> https://www.google.com/desktop]
+
+[2K/developer            (Status: 301) [Size: 229] [--> https://www.google.com/developer]
+
+[2K/developers           (Status: 301) [Size: 230] [--> https://www.google.com/developers]
+
+[2K/devices              (Status: 301) [Size: 227] [--> https://www.google.com/devices]
+
+[2K/device               (Status: 302) [Size: 243] [--> https://accounts.google.com/device]
+
+[2K/docs                 (Status: 301) [Size: 224] [--> https://www.google.com/docs]
+
+[2K/domains              (Status: 301) [Size: 227] [--> https://www.google.com/domains]
+
+[2K/doubleclick          (Status: 301) [Size: 231] [--> https://www.google.com/doubleclick]
+
+[2K/downloads            (Status: 301) [Size: 229] [--> https://www.google.com/downloads]
+
+[2K/ebooks               (Status: 301) [Size: 226] [--> https://www.google.com/ebooks]
+
+[2K/edu                  (Status: 301) [Size: 223] [--> https://www.google.com/edu]
+
+[2K/education            (Status: 301) [Size: 229] [--> https://www.google.com/education]
+
+[2K/enterprise           (Status: 301) [Size: 230] [--> https://www.google.com/enterprise]
+
+[2K/errors               (Status: 301) [Size: 226] [--> https://www.google.com/errors]
+
+[2K/favicon.ico          (Status: 301) [Size: 231] [--> https://www.google.com/favicon.ico]
+
+[2K/files                (Status: 301) [Size: 225] [--> https://www.google.com/files]
+
+[2K/finance              (Status: 301) [Size: 227] [--> https://www.google.com/finance]
+
+[2K/firefox              (Status: 301) [Size: 226] [--> http://www.google.com/firefox]
+
+[2K/fonts                (Status: 301) [Size: 225] [--> https://www.google.com/fonts]
+
+[2K/flights              (Status: 301) [Size: 0] [--> https://google.com/flights]
+
+[2K/forms                (Status: 301) [Size: 225] [--> https://www.google.com/forms]
+
+[2K/fi                   (Status: 302) [Size: 0] [--> https://fi.google.com/]
+
+[2K/fotos                (Status: 301) [Size: 225] [--> https://www.google.com/fotos]
+
+[2K/friends              (Status: 301) [Size: 227] [--> https://www.google.com/friends]
+
+[2K/fusion               (Status: 301) [Size: 226] [--> https://www.google.com/fusion]
+
+[2K/games                (Status: 301) [Size: 225] [--> https://www.google.com/games]
+
+[2K/geo                  (Status: 301) [Size: 223] [--> https://www.google.com/geo]
+
+[2K/get                  (Status: 301) [Size: 223] [--> https://www.google.com/get]
+
+[2K/green                (Status: 301) [Size: 225] [--> https://www.google.com/green]
+
+[2K/grants               (Status: 301) [Size: 226] [--> https://www.google.com/grants]
+
+[2K/groups               (Status: 301) [Size: 226] [--> https://www.google.com/groups]
+
+[2K/health               (Status: 301) [Size: 226] [--> https://www.google.com/health]
+
+[2K/hire                 (Status: 301) [Size: 224] [--> https://www.google.com/hire]
+
+[2K/history              (Status: 301) [Size: 0] [--> https://google.com/history]
+
+[2K/home                 (Status: 301) [Size: 224] [--> https://www.google.com/home]
+
+[2K/homepage             (Status: 301) [Size: 228] [--> https://www.google.com/homepage]
+
+[2K/hosted               (Status: 301) [Size: 226] [--> https://www.google.com/hosted]
+
+[2K/hotels               (Status: 301) [Size: 226] [--> https://www.google.com/hotels]
+
+[2K/humans.txt           (Status: 301) [Size: 230] [--> https://www.google.com/humans.txt]
+
+[2K/ideas                (Status: 301) [Size: 225] [--> https://www.google.com/ideas]
+
+[2K/ie                   (Status: 301) [Size: 222] [--> https://www.google.com/ie]
+
+[2K/ig                   (Status: 301) [Size: 222] [--> https://www.google.com/ig]
+
+[2K/inbox                (Status: 301) [Size: 225] [--> https://www.google.com/inbox]
+
+[2K/images               (Status: 301) [Size: 225] [--> http://www.google.com/images]
+
+[2K/index.html           (Status: 301) [Size: 229] [--> http://www.google.com/index.html]
+
+[2K/jigsaw               (Status: 301) [Size: 226] [--> https://www.google.com/jigsaw]
+
+[2K/jobs                 (Status: 301) [Size: 224] [--> https://www.google.com/jobs]
+
+[2K/js                   (Status: 301) [Size: 222] [--> https://www.google.com/js]
+
+[2K/jump                 (Status: 301) [Size: 224] [--> https://www.google.com/jump]
+
+[2K/keep                 (Status: 301) [Size: 224] [--> https://www.google.com/keep]
+
+[2K/labs                 (Status: 301) [Size: 224] [--> https://www.google.com/labs]
+
+[2K/logos                (Status: 301) [Size: 225] [--> https://www.google.com/logos]
+
+[2K/m                    (Status: 301) [Size: 220] [--> http://www.google.com/m]
+
+[2K/mail                 (Status: 301) [Size: 224] [--> https://www.google.com/mail]
+
+[2K/manufacturers        (Status: 301) [Size: 233] [--> https://www.google.com/manufacturers]
+
+[2K/manifest             (Status: 301) [Size: 227] [--> http://www.google.com/manifest]
+
+[2K/mb                   (Status: 301) [Size: 222] [--> https://www.google.com/mb]
+
+[2K/local                (Status: 301) [Size: 224] [--> http://www.google.com/local]
+
+[2K/mini                 (Status: 301) [Size: 224] [--> https://www.google.com/mini]
+
+[2K/mobile               (Status: 301) [Size: 226] [--> https://www.google.com/mobile]
+
+[2K/moderator            (Status: 301) [Size: 229] [--> https://www.google.com/moderator]
+
+[2K/movies               (Status: 301) [Size: 226] [--> https://www.google.com/movies]
+
+[2K/mozilla              (Status: 301) [Size: 227] [--> https://www.google.com/mozilla]
+
+[2K/maps                 (Status: 301) [Size: 223] [--> http://www.google.com/maps]
+
+[2K/music                (Status: 301) [Size: 225] [--> https://www.google.com/music]
+
+[2K/myaccount            (Status: 301) [Size: 229] [--> https://www.google.com/myaccount]
+
+[2K/navigation           (Status: 301) [Size: 230] [--> https://www.google.com/navigation]
+
+[2K/news                 (Status: 302) [Size: 0] [--> http://news.google.com/news]
+
+[2K/offers               (Status: 301) [Size: 226] [--> https://www.google.com/offers]
+
+[2K/on                   (Status: 301) [Size: 222] [--> https://www.google.com/on]
+
+[2K/opensource           (Status: 301) [Size: 230] [--> https://www.google.com/opensource]
+
+[2K/partner              (Status: 301) [Size: 227] [--> https://www.google.com/partner]
+
+[2K/partners             (Status: 200) [Size: 10026]
+
+[2K/password             (Status: 301) [Size: 228] [--> https://www.google.com/password]
+
+[2K/passwords            (Status: 301) [Size: 229] [--> https://www.google.com/passwords]
+
+[2K/pay                  (Status: 301) [Size: 223] [--> https://www.google.com/pay]
+
+[2K/payments             (Status: 301) [Size: 228] [--> https://www.google.com/payments]
+
+[2K/pda                  (Status: 301) [Size: 222] [--> http://www.google.com/pda]
+
+[2K/pdf                  (Status: 301) [Size: 223] [--> https://www.google.com/pdf]
+
+[2K/phones               (Status: 301) [Size: 226] [--> https://www.google.com/phones]
+
+[2K/phone                (Status: 301) [Size: 225] [--> https://www.google.com/phone]
+
+[2K/photos               (Status: 301) [Size: 226] [--> https://www.google.com/photos]
+
+[2K/patents              (Status: 301) [Size: 61] [--> https://google.com/patents]
+
+[2K/pixel                (Status: 301) [Size: 225] [--> https://www.google.com/pixel]
+
+[2K/places               (Status: 301) [Size: 226] [--> https://www.google.com/places]
+
+[2K/play                 (Status: 301) [Size: 224] [--> https://www.google.com/play]
+
+[2K/policies             (Status: 301) [Size: 228] [--> https://www.google.com/policies]
+
+[2K/posts                (Status: 301) [Size: 225] [--> https://www.google.com/posts]
+
+[2K/preferences          (Status: 301) [Size: 230] [--> http://www.google.com/preferences]
+
+[2K/press                (Status: 301) [Size: 225] [--> https://www.google.com/press]
+
+[2K/preview              (Status: 301) [Size: 227] [--> https://www.google.com/preview]
+
+[2K/privacy              (Status: 301) [Size: 227] [--> https://www.google.com/privacy]
+
+[2K/privacypolicy        (Status: 301) [Size: 233] [--> https://www.google.com/privacypolicy]
+
+[2K/profiles             (Status: 301) [Size: 228] [--> https://www.google.com/profiles]
+
+[2K/publications         (Status: 301) [Size: 232] [--> https://www.google.com/publications]
+
+[2K/publisher            (Status: 301) [Size: 229] [--> https://www.google.com/publisher]
+
+[2K/quiz                 (Status: 301) [Size: 224] [--> https://www.google.com/quiz]
+
+[2K/reader               (Status: 301) [Size: 226] [--> https://www.google.com/reader]
+
+[2K/recovery             (Status: 301) [Size: 228] [--> https://www.google.com/recovery]
+
+[2K/related              (Status: 301) [Size: 227] [--> https://www.google.com/related]
+
+[2K/research             (Status: 301) [Size: 228] [--> https://www.google.com/research]
+
+[2K/reporting            (Status: 302) [Size: 0] [--> http://google.com/reporting/]
+
+[2K/retail               (Status: 302) [Size: 0] [--> http://google.com/retail/]
+
+[2K/robots.txt           (Status: 301) [Size: 230] [--> https://www.google.com/robots.txt]
+
+[2K/s                    (Status: 301) [Size: 220] [--> http://www.google.com/s]
+
+[2K/save                 (Status: 301) [Size: 0] [--> https://google.com/save]
+
+[2K/schemas              (Status: 301) [Size: 227] [--> https://www.google.com/schemas]
+
+[2K/saved                (Status: 301) [Size: 0] [--> https://google.com/saved]
+
+[2K/saves                (Status: 301) [Size: 0] [--> https://google.com/saves]
+
+[2K/script               (Status: 301) [Size: 226] [--> https://www.google.com/script]
+
+[2K/search               (Status: 301) [Size: 225] [--> http://www.google.com/search]
+
+[2K/security             (Status: 301) [Size: 228] [--> https://www.google.com/security]
+
+[2K/services             (Status: 301) [Size: 228] [--> https://www.google.com/services]
+
+[2K/shopping             (Status: 301) [Size: 227] [--> http://www.google.com/shopping]
+
+[2K/sitemap.xml          (Status: 301) [Size: 231] [--> https://www.google.com/sitemap.xml]
+
+[2K/sitemaps             (Status: 301) [Size: 228] [--> https://www.google.com/sitemaps]
+
+[2K/sites                (Status: 301) [Size: 225] [--> https://www.google.com/sites]
+
+[2K/sitesearch           (Status: 301) [Size: 230] [--> https://www.google.com/sitesearch]
+
+[2K/slides               (Status: 301) [Size: 226] [--> https://www.google.com/slides]
+
+[2K/sms                  (Status: 301) [Size: 223] [--> https://www.google.com/sms]
+
+[2K/space                (Status: 301) [Size: 225] [--> https://www.google.com/space]
+
+[2K/store                (Status: 301) [Size: 225] [--> https://www.google.com/store]
+
+[2K/stories              (Status: 301) [Size: 226] [--> http://www.google.com/stories]
+
+[2K/story                (Status: 301) [Size: 224] [--> http://www.google.com/story]
+
+[2K/student              (Status: 301) [Size: 227] [--> https://www.google.com/student]
+
+[2K/students             (Status: 301) [Size: 228] [--> https://www.google.com/students]
+
+[2K/suggest              (Status: 301) [Size: 226] [--> http://www.google.com/suggest]
+
+[2K/survey               (Status: 301) [Size: 226] [--> https://www.google.com/survey]
+
+[2K/surveys              (Status: 301) [Size: 227] [--> https://www.google.com/surveys]
+
+[2K/support              (Status: 301) [Size: 226] [--> http://www.google.com/support]
+
+[2K/tags                 (Status: 301) [Size: 224] [--> https://www.google.com/tags]
+
+[2K/talk                 (Status: 301) [Size: 224] [--> https://www.google.com/talk]
+
+[2K/talks                (Status: 301) [Size: 225] [--> https://www.google.com/talks]
+
+[2K/technology           (Status: 301) [Size: 230] [--> https://www.google.com/technology]
+
+[2K/templates            (Status: 301) [Size: 229] [--> https://www.google.com/templates]
+
+[2K/terms                (Status: 301) [Size: 225] [--> https://www.google.com/terms]
+
+[2K/toolbar              (Status: 301) [Size: 227] [--> https://www.google.com/toolbar]
+
+[2K/tools                (Status: 301) [Size: 225] [--> https://www.google.com/tools]
+
+[2K/translate            (Status: 301) [Size: 229] [--> https://www.google.com/translate]
+
+[2K/travel               (Status: 301) [Size: 0] [--> https://google.com/travel]
+
+[2K/trends               (Status: 301) [Size: 226] [--> https://www.google.com/trends]
+
+[2K/tv                   (Status: 301) [Size: 222] [--> https://www.google.com/tv]
+
+[2K/urchin               (Status: 301) [Size: 226] [--> https://www.google.com/urchin]
+
+[2K/url                  (Status: 301) [Size: 222] [--> http://www.google.com/url]
+
+[2K/video                (Status: 301) [Size: 225] [--> https://www.google.com/video]
+
+[2K/views                (Status: 301) [Size: 225] [--> https://www.google.com/views]
+
+[2K/webmaster            (Status: 301) [Size: 229] [--> https://www.google.com/webmaster]
+
+[2K/webmasters           (Status: 301) [Size: 230] [--> https://www.google.com/webmasters]
+
+[2K/wedding              (Status: 301) [Size: 227] [--> https://www.google.com/wedding]
+
+[2K/whatsnew             (Status: 301) [Size: 228] [--> https://www.google.com/whatsnew]
+
+[2K/wifi                 (Status: 301) [Size: 224] [--> https://www.google.com/wifi]
+
+[2K/wml                  (Status: 301) [Size: 222] [--> http://www.google.com/wml]
+
+[2K/work                 (Status: 301) [Size: 224] [--> https://www.google.com/work]
+
+[2K/xhtml                (Status: 301) [Size: 224] [--> http://www.google.com/xhtml]
+
+===============================================================
+Finished
+===============================================================
+
+2025-02-25 12:10:35,368 - INFO - PDF report generated at results/scan_results.pdf
+2025-02-25 12:10:35,368 - INFO - Cybersecurity scan completed. Report generated.

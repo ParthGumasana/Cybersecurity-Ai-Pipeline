@@ -1,4 +1,3 @@
-import langgraph
 from scans.scan_executor import execute_task
 from utils.scope_checker import is_within_scope
 from utils.report_generator import generate_pdf_report
