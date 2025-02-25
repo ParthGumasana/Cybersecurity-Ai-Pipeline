@@ -35,8 +35,8 @@ cybersecurity-ai-pipeline
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/ParthGumasana/Agentic-Cybersecurity.git
-cd Agentic-Cybersecurity
+https://github.com/ParthGumasana/Cybersecurity-Ai-Pipeline.git
+cd Cybersecurity-Ai-Pipeline
 ```
 
 ### Step 2: Set Up a Virtual Environment
