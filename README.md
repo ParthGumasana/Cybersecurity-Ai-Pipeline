@@ -35,7 +35,7 @@ cybersecurity-ai-pipeline
 
 ### Step 1: Clone the Repository
 ```bash
-https://github.com/ParthGumasana/Cybersecurity-Ai-Pipeline.git  #To clone use github username and password as ParthGumasana & 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
+https://github.com/ParthGumasana/Cybersecurity-Ai-Pipeline.git 
 cd Cybersecurity-Ai-Pipeline
 ```
 
